@@ -1,6 +1,6 @@
 /* ════════════ ✏️ CONFIGURACIÓN ════════════ */
 const WA_NUMBER = "34680124466";  // WhatsApp con prefijo país, sin + ni espacios
-const WA_TEXT = "Hola Quasar 👋 Quiero contaros mi proyecto."; // mensaje único para todos los botones
+const WA_TEXT = "Hola Quasar Musik, quiero contaros mi proyecto."; // mensaje único para todos los botones
 /* ═══════════════════════════════════════════ */
 
 const waUrl = ()=>`https://wa.me/${WA_NUMBER}?text=${encodeURIComponent(WA_TEXT)}`;
