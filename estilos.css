@@ -85,10 +85,15 @@ header.nav.scrolled{border-color:var(--line)}
 .svc{padding:clamp(80px,11vw,140px) 0}
 .svc .eyebrow{color:var(--punch);display:block;margin-bottom:14px}
 .svc h2{font-size:clamp(2.4rem,6vw,5rem);margin-bottom:48px}
+.svc{background:var(--ink);color:#fff;padding:clamp(80px,11vw,140px) 0}
+.svc .top{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:48px;flex-wrap:wrap}
+.svc .eyebrow{color:var(--punch);display:block;margin-bottom:14px}
+.svc h2{font-size:clamp(2.4rem,6vw,5rem);color:#fff}
+.works .top p{color:#B9B9B9;max-width:34ch;font-weight:500}
 .tile-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
 .tile{position:relative;background:var(--mist);border-radius:18px;padding:38px 32px;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden}
 .tile .t-num{font-family:'Archivo';font-weight:700;font-size:.8rem;color:var(--dim);letter-spacing:.1em}
-.tile h3{font-family:'Archivo';font-weight:900;text-transform:uppercase;font-size:clamp(1.8rem,3.2vw,2.6rem);line-height:.95;letter-spacing:-.02em;margin:auto 0 0}
+.tile h3{font-family:'Archivo';font-weight:900;text-transform:uppercase;font-size:clamp(1.8rem,3.2vw,2.6rem);line-height:.95;letter-spacing:-.02em;margin:auto 0 0;color: #111;}
 .tile p{color:var(--dim);font-weight:500;margin-top:14px}
 
 /* ───────── BEATS (bolsa de beats) ───────── */
@@ -125,9 +130,12 @@ header.nav.scrolled{border-color:var(--line)}
 .g-item:hover img{transform:scale(1.06)}
 .g1{grid-column:span 7}.g2{grid-column:span 5}.g3{grid-column:span 5}.g4{grid-column:span 7}
 .g5{grid-column:span 6}.g6{grid-column:span 6}
-.gallery-section{padding:clamp(20px,3vw,40px) 0 clamp(80px,11vw,140px)}
-.gallery-section .eyebrow{color:var(--punch);display:block;margin-bottom:14px}
-.gallery-section h2{font-size:clamp(2.4rem,6vw,5rem)}
+.gallery-section{background:var(--ink);color:#fff;padding:clamp(80px,11vw,140px) 0}
+.gallery-section{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:48px;flex-wrap:wrap}
+.gallery-section{color:var(--punch);display:block;margin-bottom:14px}
+.gallery-section h2{font-size:clamp(2.4rem,6vw,5rem);color:#fff}
+.gallery-section .top p{color:#B9B9B9;max-width:34ch;font-weight:500}
+
 
 /* ───────── CTA FINAL ───────── */
 .cta-final{background:var(--punch);color:#fff;padding:clamp(80px,12vw,150px) 0;text-align:center}
